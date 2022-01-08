@@ -1,0 +1,15 @@
+.mailsidebar{
+    width: 30%;
+}
+.sidebar__compose{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    background-color: #3079ed;
+    color: white;
+    font-size: small;
+}
+.categories ul{
+    margin-top: 15px;
+    margin-left: 10px;
+}

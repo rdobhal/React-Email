@@ -1,0 +1,10 @@
+.innerMail__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+}
+.innerMail__left > button{
+    background-color: #fff;
+}
