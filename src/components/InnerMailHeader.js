@@ -12,11 +12,11 @@ const InnerMailHeader = () => {
     <div className="innerMail__header">
       <div className="innerMail__left">
         <h2>Inbox(16)</h2>
-        <div>
+        <div className="header__buttons">
           <button>
             <CachedIcon />
             Refresh
-          </button>
+          </button >
           <button>
             <VisibilityIcon />
           </button>
@@ -31,7 +31,7 @@ const InnerMailHeader = () => {
       <div className="innerMail__right">
         <input placeholder="search email"></input>
         <button>search</button>
-        <div>
+        <div className="left__right__arrows">
           <button>
             <ArrowBackIcon />
           </button>

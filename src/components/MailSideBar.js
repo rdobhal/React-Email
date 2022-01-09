@@ -16,7 +16,7 @@ const MailSideBar = () => {
     const[buttonPopup, setButtonPopup] = useState(false)
     return (
         <div className='mailsidebar'>
-            <Button className='sidebar__compose' onClick={() => {setButtonPopup(true)}}>Compose Mail</Button>
+            <Button className='compose__button' onClick={() => {setButtonPopup(true)}}>Compose Mail</Button>
             <SendMail trigger={buttonPopup} setTrigger={setButtonPopup}/>
             <SideBarOption Icon={InboxIcon} title="Inbox" number={16} />
             <Link to="/sent" style={{textDecoration: 'none', color:'black'}}> <SideBarOption Icon={MailOutlineIcon} title="Sent Mails"/></Link>
@@ -24,7 +24,7 @@ const MailSideBar = () => {
             <SideBarOption Icon={DraftsIcon} title="Drafts" number={2} />
             <SideBarOption Icon={DeleteIcon} title="Trash" />
             <div className='categories'>
-                <h3>CATEGORIES</h3>
+                <h5>CATEGORIES</h5>
                 <ul>
                     <li>Work</li>
                     <li>Documents</li>
@@ -33,7 +33,8 @@ const MailSideBar = () => {
                     <li>Clients</li>
                 </ul>
             </div>
-            <div className='labels'></div>
+            <div className='labels'>
+            </div>
         </div>
     )
 }

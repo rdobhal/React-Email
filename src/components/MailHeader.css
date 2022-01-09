@@ -4,7 +4,7 @@
     padding: 5px 10px;
     background-color: white;
 }
-.header > input{
+.header .header__left > input{
     padding: 10px;
     border-radius: 5px;
     background-color: whitesmoke;
@@ -15,7 +15,10 @@
     background-color: transparent;
 }
 .header__right{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-auto-flow: column;
     align-items: center;
+}
+.header__left{
+    width: 80%;
 }

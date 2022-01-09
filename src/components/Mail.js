@@ -1,9 +1,10 @@
 import React from 'react'
+import './Mail.css'
 
 const Mail =() => {
     return (
-        <div>
-           This screen is yet to be implemented 
+        <div className='mail__open'>
+    
         </div>
     )
 }

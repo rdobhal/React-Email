@@ -4,6 +4,7 @@
     align-items: center;
     cursor: pointer;
     z-index: 999;
+    height: 17%;
 }
 .emailRow:hover{
     border-top: 1px solid whitesmoke;

@@ -11,11 +11,12 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route exact path='/sent' element={<SentMailsList/>}/>
-          <Route exact path='/mail' element={<Mail/>}/>
-          <Route exact path='/' element={<LoginForm />}></Route>
-          <Route exact path='/dashboard' element={<DashboardPage />}></Route>
-          <Route exact path='/mailBox' element={<MailBox/>}></Route>
+        <Route  path='/' element={<LoginForm />}></Route>
+        <Route  path='/sent' element={<SentMailsList />} />
+        <Route  path='/mail' element={<Mail/>}/>
+        <Route  path='/dashboard' element={<DashboardPage />}></Route>
+        <Route  path='/mailBox' element={<MailBox />}></Route>
+        <Route  path='/logout' element={<LoginForm/>}></Route>
         </Routes>
      </BrowserRouter>
     </div>

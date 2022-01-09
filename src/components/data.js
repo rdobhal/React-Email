@@ -2,13 +2,13 @@ const data = {
   users: [
     {
       _id: "1",
-      email: "ratnadobhal@gmail.com",
-      password: "ratna@03",
+      email: "testing123@gmail.com",
+      password: "test@01",
     },
     {
       _id: "2",
-      email: "sumedhadobhal@gmail.com",
-      password: "Sumedha@09",
+      email: "testing456@gmail.com",
+      password: "test@02",
     },
   ],
 };

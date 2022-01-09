@@ -1,15 +1,26 @@
 .mailsidebar{
-    width: 30%;
+    width: 22%;
+    padding: 0px 10px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.sidebar__compose{
+.mailsidebar .compose__button {
+    background: #43d685;
+    color: #fff;
+    padding: 6px 30px;
+    cursor: pointer;
+}
+.categories {
     margin-top: 15px;
-    margin-left: 10px;
     margin-bottom: 15px;
-    background-color: #3079ed;
-    color: white;
-    font-size: small;
+}
+.categories h5{
+    margin-bottom: 10px;
+    margin-left: 13px;
 }
 .categories ul{
-    margin-top: 15px;
-    margin-left: 10px;
+    list-style: none;
+}
+.categories ul li {
+    padding: 5px 15px;
 }

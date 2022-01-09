@@ -1,12 +1,17 @@
 import React from "react";
 import "./EmailRow.css";
-import CheckBoxOutlineBlankIcon from '@material-ui/icons/CheckBoxOutlineBlank';
+import CheckBoxOutlineBlankIcon from "@material-ui/icons/CheckBoxOutlineBlank";
 import { useNavigate } from "react-router-dom";
 
 const EmailRow = ({ id, title, description, time }) => {
-    const navigate = useNavigate();
+  const navigate = useNavigate();
   return (
-    <div className="emailRow" onClick={()=>{navigate("/mail")}}>
+    <div
+      className="emailRow"
+      onClick={() => {
+        navigate("/mail");
+      }}
+    >
       <div className="emailRow__options">
         <CheckBoxOutlineBlankIcon />
       </div>
