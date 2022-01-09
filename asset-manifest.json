@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-Email/static/css/main.15f5de5a.css",
+    "main.js": "/React-Email/static/js/main.d25f702c.js",
+    "index.html": "/React-Email/index.html",
+    "main.15f5de5a.css.map": "/React-Email/static/css/main.15f5de5a.css.map",
+    "main.d25f702c.js.map": "/React-Email/static/js/main.d25f702c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15f5de5a.css",
+    "static/js/main.d25f702c.js"
+  ]
+}
