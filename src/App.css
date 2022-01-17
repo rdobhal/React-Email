@@ -1,0 +1,14 @@
+.App{
+    display: flex;
+    flex-direction: row;
+    background: rgb(197, 190, 190);
+}
+.mail__header{
+    height: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.mailheader__mailbody{
+    width: 100%;
+}

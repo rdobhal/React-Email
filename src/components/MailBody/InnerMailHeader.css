@@ -1,0 +1,41 @@
+.innerMail__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    height: 100px;
+}
+.innerMail__left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.innerMail__left .header__buttons button{
+    padding: 2px 8px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.innerMail__right .left__right__arrows button{
+    padding: 2px 8px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 15px; 
+}
+.innerMail__left h2{
+    margin-top: 5px;
+}
+.innerMail__right input{
+    margin-top: 10px;
+}

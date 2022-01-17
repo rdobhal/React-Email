@@ -1,0 +1,7 @@
+.mail__body{
+    display: flex;
+    flex-direction: row;
+}
+.mail__head__body{
+    width: 100%;
+}

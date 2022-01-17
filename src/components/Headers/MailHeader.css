@@ -1,0 +1,24 @@
+.header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.header .header__left > input{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border: none;
+    width: 70%;
+    outline-width: 0;
+    font-size: medium;
+    background-color: transparent;
+}
+.header__right{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 12px;
+}
+.header__left{
+    width: 80%;
+}
